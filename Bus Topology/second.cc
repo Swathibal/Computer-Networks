@@ -1,4 +1,8 @@
-
+// ./waf --run "scratch/second-nCsma=50"
+// tcpdump -nn -tt -r second-0-0.pcap
+// ./waf --run scratch/second >log.out 2>&1
+// ls
+// vi log.out
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"
